@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Trirong:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trirong', serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f1dac4;
+ }
+ 
+ img{
+    width: 500px;
+    height: 325px;
+    min-width: 100%;
+    object-fit: cover;
+ }
+
+ 
+
+ .carousel {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    height: 455px;
+    width: 500px;
+    overflow: hidden;
+    border-radius: 10px;
+    
+ }
+
+ .banner-container {
+   display: flex;
+   height: 50px;
+   justify-content: center;
+   line-height: 50px;
+   background-color: #474973;
+   color: white;
+   
+ }
+
+ .image-container {
+    display: flex;
+    transform: translateX(0px);
+    height: 325px;
+    /*transition: transform 0.5s ease-in-out;*/
+ }
+
+ .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #a69cac;
+    height: 40px;
+ }
+ 
+ .begin-container {
+   display: flex;
+   justify-content: center;
+   background-color: #a69cac;
+   height: 40px;
+}
+
+ .btn {
+    background-color: #474973;
+    color: white;
+    border: 2px;
+    padding: 0.5rem;
+    cursor: pointer;
+    width: 24.5%;
+    border-radius: 10px;
+    margin: 5px;
+
+ }
+
+ .btn:hover {
+    opacity: .9;
+ }
+
+ .btn:focus {
+    outline: none;
+ }
+
+ 
+
+ #left {
+   visibility: hidden;
+ }
+
+ #right {
+   visibility: hidden;
+ }
+ 
+ #majorBtn {
+   height: 50px;
+   background-color: #800000;
+   visibility: hidden;
+ }
+ 
+ #minorBtn {
+   height: 50px;
+   background-color: #800000;
+   visibility: hidden;
+ }
+   
+ 
+
+
+  
+ 
